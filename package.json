@@ -4,8 +4,11 @@
   "description": "",
   "main": "Script.js",
   "scripts": {
-    "start": "nodemon server.js"
-  },
+    "start": "nodemon server.js",
+    "build": "nodemon server.js",
+    "deploy": "nodemon server.js",
+    "homepage": "https://SnehaJujare.github.io/Face-Detect"
+      },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -18,6 +21,7 @@
     "clarifai": "^2.9.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "gh-pages": "^2.2.0",
     "knex": "^0.21.1",
     "pg": "^8.1.0"
   }
