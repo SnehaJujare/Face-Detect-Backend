@@ -26,6 +26,17 @@ const db = knex({
 
 const app = express();
 
+
+
+
+app.get('/test',(req,res)=>{
+    res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/html');
+  res.end('<h1>Hello World</h1>');
+})
+
+
+
 app.use(cors())
 app.use(bodyParser.json());
 
